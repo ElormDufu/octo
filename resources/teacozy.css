@@ -1,0 +1,130 @@
+html,
+body{
+    margin: 0;
+    border: 0;
+}
+body{
+    background-color: #111111;
+    opacity: 0.9;
+    font-size: 22px;
+    color: seashell;
+}
+a:hover{
+    background-color: gray;
+
+}
+a:visited,
+a:active{
+    color: seashell;
+}
+.Miss,p{
+    text-align: center;   
+}
+.teacozy{
+    border-bottom: 1px solid seashell;
+    background-color: #111111;
+    position: fixed;
+    height: 69px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0 ;
+}
+#logo{
+    height: 50px;
+    margin-left: 10px;
+}   
+.MFL ul{
+    list-style-type: none;
+}
+.MFL li{
+    display: inline;
+    text-decoration: underline;
+    padding: 10px;
+}
+.second-image{
+    background-image:url('./images/mission-background.webp');
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin: 70px auto 0;
+   
+}
+.middle-black{
+    background-color: #111111;
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+    position: relative;
+    top: 0
+   
+}
+.t-month{
+    height: 700px;
+    width: 1000px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   margin: 0 auto;
+}
+.img{
+    height: 200px;
+    width: 300px;
+}
+.t-one{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+.third-image{
+    background-image: url('./images/locations-background.webp');
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.location{
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+}
+.downtown,
+.east,
+.oak{
+    border: 1px solid #111111;
+    background-color: #111111;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-wrap: wrap;
+    width: 300px;
+    height: 255px;
+    margin: 0 40px ;
+
+}
+.tea-cozy{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.copyright{
+    text-align: left;
+    margin-left: 20px;
+}
